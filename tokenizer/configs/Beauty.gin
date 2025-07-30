@@ -1,0 +1,14 @@
+train.iterations=3000
+train.batch_size=512
+train.learning_rate=0.0001
+train.weight_decay=0.01
+train.input_dim=768
+train.n_flow=4
+train.n_block=4
+train.n_codebook=32
+train.codebook_size=256
+train.save_model_every=500
+train.eval_every=500
+train.dataset_folder=["./cache/AmazonReviews2014/Beauty/processed/sentence-t5-base.sent_emb"]
+train.save_dir_root="./cache/AmazonReviews2014/Beauty/processed/"
+train.wandb_logging=True
